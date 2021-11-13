@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'employee-client-end';
+  // tslint:disable-next-line: variable-name
+  current_year: number = new Date().getFullYear();
 }
